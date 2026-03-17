@@ -1,0 +1,228 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=4;
+	};
+	class Camera
+	{
+		pos[]={1335.2196,1452.1978,6015.6313};
+		dir[]={0.83510959,-0.48956606,0.25090829};
+		up[]={0.46886706,0.87195909,0.14087167};
+		aside[]={0.2877481,-2.8865179e-007,-0.95772666};
+	};
+};
+binarizationWanted=0;
+sourceName="nogova";
+addons[]=
+{
+	"A3_Modules_F_Curator_Curator",
+	"gm_characters_ge_characters",
+	"gm_vehicles_land_wheeled_bicycle_ge_civ_bicycle"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=3;
+		class Item0
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="gm_characters_ge_characters";
+			name="gm_characters_ge_characters";
+			author="Global Mobilization";
+			url="global-mobilization.com";
+		};
+		class Item2
+		{
+			className="gm_vehicles_land_wheeled_bicycle_ge_civ_bicycle";
+			name="gm_vehicles_land_wheeled_bicycle_ge_civ_bicycle";
+			author="Global Mobilization";
+			url="global-mobilization.com";
+		};
+	};
+};
+dlcs[]=
+{
+	"gm"
+};
+randomSeed=319551;
+class ScenarioData
+{
+	author="citizen135";
+	briefing=0;
+	debriefing=0;
+	saving=0;
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=1984;
+		hour=11;
+		minute=20;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=3;
+		class Item0
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4435.9678,14.020184,11294.821};
+			};
+			id=0;
+			type="ModuleCurator_F";
+			atlOffset=0.00010871887;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4433.2964,14.188166,11290.117};
+						angles[]={0.10392106,0,0.22354397};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=3;
+					type="gm_ge_pol_patrol_80_blk";
+					atlOffset=3.7193298e-005;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=3;
+						item1=2;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=1;
+			atlOffset=3.7193298e-005;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4433.2534,14.109812,11290.771};
+				angles[]={0.10392106,0,0.22354397};
+			};
+			side="Civilian";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=2;
+			type="gm_ge_pol_bicycle_01_grn";
+			atlOffset=3.7193298e-005;
+		};
+	};
+};

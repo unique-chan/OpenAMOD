@@ -1,0 +1,16 @@
+pandas
+scipy
+tqdm
+opencv-contrib-python
+shapely
+pyqt5==5.13.0
+pillow
+ray
+pyarrow
+
+# For conda in Windows 11
+# 1) Run Powershell as Administrator
+# PS C:\Windows\system32> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+# -> [A]
+# 2) Init conda env as follows
+# PS C:\Windows\system32> conda init powershell
