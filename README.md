@@ -64,8 +64,6 @@ python main.py  -weather 'sunny' -map_name 'malden' \
 	|—— 📄 meta_..._.csv (including in-game shooting time, weather, and error logs per each scene)
 ~~~
 - You may need to transform the above folder structure before training your own model.
-- You can conveniently check the data using our [image viewer](https://github.com/unique-chan/AMOD-viewer).
-
 
 
 ### Citation
