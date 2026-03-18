@@ -1,5 +1,5 @@
 <div align="center">
-    <img alt="G-MAD: An Open-Source Toolkit for Synthetic RGB-T Military Object Detection Data Generation" src="./figs/Logo.png" />
+    <img alt="G-MAD: An Open-Source Toolkit for Synthetic RGB-T Military Object Detection Data Generation" src="./figs/Logo.svg" />
 </div>
 
 <hr>
