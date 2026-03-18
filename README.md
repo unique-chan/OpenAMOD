@@ -5,7 +5,7 @@
 <hr>
 
 <h3 align="center">
-🛠️ An Open-source Toolkit for Synthetic RGB-T Military Object Detection Data Generation
+🛠️ An Open-Source Toolkit for Synthetic RGB-T Military Object Detection Data Generation
 </h3>
 
 <p align="center">
